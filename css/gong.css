@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+*{ padding:0; margin:0;}
+.clear{ clear:both;}
+body{ font-family:"微软雅黑";}
+
+/**nav**/
+.navs{ width:100%; height:100px; background:#0b8b8e;}
+.nav{ width:1120px; height:100px; margin:0 auto;}
+.nav1 img{ width:274px; height:62px; margin-top:21px; float:left;}
+.nav2{ width:740px; height:40px;float:right; margin-top:60px;}
+.nav2 ul{ width:740px; height:40px;}
+.nav2 ul li{ float:left; text-align:center; list-style:none; width:105px; height:40px; line-height:40px;  color:#FFF;}
+.nav2 ul li a{ text-decoration:none; color:#FFF;}
+.nav2 ul li:hover{ background:#FFF; border-radius:6px 6px 0 0;}
+.nav2 ul li a:hover{ color:#0b8b8e;}
+
+/**banner**/
+.banner img{ width:100%; height:430px; vertical-align:middle;}
+
+/**news**/
+.newss{ width:100%; height:47px;}
+.news{ width:1120px; height:47px; margin:0 auto; border-bottom:solid 1px #bbbbbb;}
+.news p{ font-size:12px; color:#666666; padding-top:22px;}
+.news span{ font-size:14px; font-weight:bold;}
+.news p a{ text-decoration:none; color:#666666;}
+.news p a:hover{ color:#00F;}
+.news span a:hover{ color:#F00;}
+
+/**工程案例**/
+.abouts{ width:100%; height:910px;}
+.about{ width:1120px; height:680px; margin:0 auto; margin-top:12px;}
+.mk{ width:201px; height:680px; float:left;}
+.fenlei{ width:201px; height:312px; border:solid 1px #eeeeee;}
+.fenlei h2{ font-size:14px; width:201px; height:40px; background:#0d9590; color:#FFF; line-height:40px;}
+.fenlei h2 a{ text-decoration:none; color:#FFF;}
+.fenlei h2 a:hover{ color:#F00;}
+.fenlei ul{ width:187px; height:248px; margin-top:12px; margin-left:5px;}
+.fenlei ul li{ font-size:12px; color:#666666; width:187px; height:30px; border-bottom:dotted 1px #999999; line-height:30px; list-style:none;}
+.fenlei ul li a{ text-decoration:none; color:#666666;}
+.fenlei ul li a:hover{ color:#00F;}
+.lianxi{ width:201px; height:352px; margin-top:12px; border:solid 1px #eeeeee;}
+.lianxi h2{ font-size:14px; width:201px; height:40px; background:#0d9590; color:#FFF; line-height:40px;}
+.lianxi h2 a{ text-decoration:none; color:#FFF;}
+.lianxi h2 a:hover{ color:#F00;}
+.lianxi ul{ width:164px; height:90px; margin-top:10px; margin-left:7px;}
+.lianxi ul li{ font-size:12px; list-style:none; color:#666666; line-height:22px;}
+.lianxi ul li a{ text-decoration:none; color:#666666;}
+.lianxi  ul li a:hover{ color:#00F;}
+.lianxi img{ margin-top:8px; margin-left:2px; vertical-align:middle;}
+       /**右边**/
+.center{ width:860px; height:704px; float:left; margin-left:50px;}
+
+.center1{ width:860px; height:45px;}
+.center1 img{ float:left;}
+.c1{ float:left; width:816px; height:42px; border-bottom:solid 1px #e0e0e0;}
+.c1 p{ float:left; font-size:12px; color:#808080; padding-top:6px;}
+.c1 span{ font-size:16px; color:#666666;}
+.c1 p a{ text-decoration:none; color:#848484;}
+.c1 p a:hover{ color:#00F;}
+
+.center2{ width:860px; height:303px;}
+.center2 img{ width:402px; height:303px; margin-left:210px;}
+
+.center3{ width:860px; height:135px; margin-top:34px;}
+.center3 p{ font-size:12px; color:#666666; line-height:28px; text-indent:2em;}
+
+.center4{ width:860px; height:45px; margin-top:86px;}
+.center4 p{ padding-left:29px; color:#666666; font-size:12px; line-height:25px;}
+.center4 p a{ text-decoration:none; color:#666666;}
+.center4 p a:hover{ color:#00F;}
+
+/**bottom**/
+.bottom{ width:100%; height:94px; background:#353535;}
+.bottom p{ font-size:12px; text-align:center; color:#999999;}
+.bottom p a{ text-decoration:none; color:#999999;}
+.bottom p a:hover{ color:#00F;}
